@@ -237,7 +237,7 @@ if __name__ == "__main__":
     parser.add_argument("--pen_fn", default=0.1, type=float)
     parser.add_argument("--max_fn", default=50, type=int)
     parser.add_argument("--num_exp", default=20, type=int)
-    parser.add_argument("--n_steps", default=25, type=int)
+    parser.add_argument("--n_steps", default=1000, type=int)
     # parser.add_argument("--n_steps", default=200, type=int)
     parser.add_argument("--root_data", default="../support_materials/dataset", type=str)
     parser.add_argument("--X_existent", default=True, type=lambda x: bool(strtobool(x)))
