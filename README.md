@@ -13,3 +13,5 @@ Example:
 ```
 python savage_only_vicious.py
 ```
+
+More instruction and functionalities coming in the following weeks!
